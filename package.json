@@ -1,0 +1,29 @@
+{
+  "name": "atos-acof",
+  "version": "1.0.0",
+  "description": "Atos Acof JavaScript files task.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpunalkar/atos-acof.git"
+  },
+  "keywords": [
+    "atos",
+    "acof",
+    "plato",
+    "yuidoc"
+  ],
+  "author": "Ganesh Punalkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpunalkar/atos-acof/issues"
+  },
+  "homepage": "https://github.com/gpunalkar/atos-acof#readme",
+  "devDependencies": {
+    "grunt-plato": "^1.4.0",
+    "grunt-contrib-yuidoc": "^1.0.0"
+  }
+}

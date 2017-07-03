@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# grunt task files
+acof/
+
+# package.json lock file
+package-lock.json
