@@ -5,7 +5,7 @@ var gruntConfig = ({
     plato: {
         acofCodeReport: {
             files: {
-                'acof/report/': ['js/*.js']
+                'acof/report/': ['js/acof/*.js']
             }
         }
         },
@@ -17,7 +17,7 @@ var gruntConfig = ({
                 version: '<%= pkg.version %>',
                 url: '<%= pkg.homepage %>',
                 options: {
-                    paths: 'js',
+                    paths: 'js/acof/',
                     outdir: 'acof/docs/'
                 }
             }
