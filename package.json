@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/H102774/telstra-scope-application-code#readme",
   "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-yuidoc": "^1.0.0",
     "grunt-plato": "^1.4.0",
-    "grunt-contrib-yuidoc": "^1.0.0"
+    "plato": "^1.7.0"
   }
 }

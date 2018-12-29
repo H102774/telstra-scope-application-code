@@ -5,7 +5,7 @@ var gruntConfig = ({
     plato: {
         telstraCodeReport: {
             files: {
-                'telstra/report/': ['js/telstra/*.js']
+                'telstra/reports/code_review_tool': ['js/telstra/code_review_tool/*.js']
             }
         }
         },
@@ -17,8 +17,8 @@ var gruntConfig = ({
                 version: '<%= pkg.version %>',
                 url: '<%= pkg.homepage %>',
                 options: {
-                    paths: 'js/telstra/',
-                    outdir: 'telstra/docs/'
+                    paths: 'js/telstra/code_review_tools/*js',
+                    outdir: 'docs/telstra/code_review_tool'
                 }
             }
         }
