@@ -1,14 +1,14 @@
 {
-  "name": "atos-acof",
+  "name": "telstra-scope-application-code",
   "version": "1.0.0",
-  "description": "Atos Acof JavaScript files task.",
+  "description": "Telstra Scope Application Code",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gpunalkar/atos-acof.git"
+    "url": "git+https://github.com/H102774/telstra-scope-application-code.git"
   },
   "keywords": [
     "atos",
@@ -19,9 +19,9 @@
   "author": "Ganesh Punalkar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gpunalkar/atos-acof/issues"
+    "url": "https://github.com/H102774/telstra-scope-application-code/issues"
   },
-  "homepage": "https://github.com/gpunalkar/atos-acof#readme",
+  "homepage": "https://github.com/H102774/telstra-scope-application-code#readme",
   "devDependencies": {
     "grunt-plato": "^1.4.0",
     "grunt-contrib-yuidoc": "^1.0.0"

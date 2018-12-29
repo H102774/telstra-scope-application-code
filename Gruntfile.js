@@ -3,9 +3,9 @@ var gruntConfig = ({
     pkg: grunt.file.readJSON('package.json'),
     
     plato: {
-        acofCodeReport: {
+        telstraCodeReport: {
             files: {
-                'acof/report/': ['js/acof/*.js']
+                'telstra/report/': ['js/telstra/*.js']
             }
         }
         },
@@ -17,8 +17,8 @@ var gruntConfig = ({
                 version: '<%= pkg.version %>',
                 url: '<%= pkg.homepage %>',
                 options: {
-                    paths: 'js/acof/',
-                    outdir: 'acof/docs/'
+                    paths: 'js/telstra/',
+                    outdir: 'telstra/docs/'
                 }
             }
         }
@@ -28,7 +28,7 @@ grunt.initConfig(gruntConfig);
 grunt.loadNpmTasks('grunt-plato');
 grunt.loadNpmTasks('grunt-contrib-yuidoc');
 
-grunt.registerTask('acof', function(target){
+grunt.registerTask('telstra', function(target){
         grunt.task.run([
             'plato',
             'yuidoc'

@@ -1,3 +1,7 @@
+# Projcet file
+.project
+.settings
+
 # Logs
 logs
 *.log
@@ -58,7 +62,7 @@ typings/
 .env
 
 # grunt task files
-acof/
+telstra/
 
 # package.json lock file
 package-lock.json
